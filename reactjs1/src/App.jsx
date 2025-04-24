@@ -1,35 +1,19 @@
-import { BrowserRouter, Route, Routes } from "react-router";
 import Home from "./pages";
 import Books from "./pages/books";
-import Teams from "./components/shared/team";
-import Contacts from "./components/shared/contact";
-
-
-
-
-
-
+import Contact from "./pages/contact";
+import Team from "./pages/team";
 
 function App() {
-
   return (
-    <>
-    <div className="container">
-      <BrowserRouter>
-        <Routes>
-        <Route index element={<Home />} />
-          <Route path="books" element={<Books/>} />
-          <Route path="Teams" element={<Teams/>} />
-          <Route path="Contacts" element={<Contacts/>} />
-        </Routes>
-          
-        
-      </BrowserRouter>
-      
-    </div>
-    </>
+    <Router>
+      <Routes>
+      <Route index element={<Home/>} />
+      <Route path="/books" element={<Books/>} />
+      <Route path="/team" element={<Team/>} />
+      <Route path="/contact" element={<Contact/>} />
+      </Routes>
+    </Router>
   );
 }
-
 
 export default App;
