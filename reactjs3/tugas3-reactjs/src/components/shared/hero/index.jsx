@@ -4,7 +4,7 @@ export default function Hero() {
         <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
           <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
             <h1 className="display-4 fw-bold lh-1 text-body-emphasis">
-              Temukan Buku Favoritmu di Satu Tempat
+              Temukan Buku Favoritmu Yang Kamu Inginkan
             </h1>
             <p className="lead">
               Jelajahi ribuan koleksi buku menarik dari berbagai genre. Mulai dari
@@ -29,7 +29,7 @@ export default function Hero() {
           <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
             <img
               className="rounded-lg-3"
-              src="https://images.unsplash.com/photo-1512820790803-83ca734da794"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLRWzsb4clDglczfr8Z1jCWVJy0Vi8tNGZ-uvcmHrjhZkvUB4l2Q&s=10&ec=72940544"
               alt="Tumpukan Buku"
               width="720"
               style={{ objectFit: "cover", height: "100%" }}

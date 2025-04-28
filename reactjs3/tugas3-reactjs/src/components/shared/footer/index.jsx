@@ -113,7 +113,7 @@ export default function Footer() {
           </div>
   
           <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>&copy; 2025 BookStore. Web by Dimas Aji Nugroho.</p>
+            <p className="text-center text-body-secondary">&copy; 2025 BookStore. Web by RIZKY MAULANA</p>
           </div>
         </footer>
       </div>
