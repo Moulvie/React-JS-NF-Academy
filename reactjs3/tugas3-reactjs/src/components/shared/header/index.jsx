@@ -32,7 +32,7 @@ export default function Header() {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/book"
+              to="/Books"
               className={({ isActive }) =>
                 `nav-link px-3 fw-semibold ${
                   isActive ? "active text-primary" : "text-dark"
@@ -56,14 +56,14 @@ export default function Header() {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/kontak"
+              to="/Contact"
               className={({ isActive }) =>
                 `nav-link px-3 fw-semibold ${
                   isActive ? "active text-primary" : "text-dark"
                 }`
               }
             >
-              Kontak
+              Contact
             </NavLink>
           </li>
         </ul>

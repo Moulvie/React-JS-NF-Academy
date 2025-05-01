@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages";
 import Teams from "./Pages/Team";
-import Kontaks from "./pages/kontak";
-import Book from "./Pages/Books";
+import Contacts from "./pages/contact";
+import Books from "./Pages/Books";
+
 
 
 
@@ -13,9 +14,9 @@ function App() {
         <BrowserRouter>
           <Routes>
           <Route index element={<Home />} />
-          <Route path="books" element={<Book/>} />
+          <Route path="books" element={<Books/>} />
           <Route path="team" element={<Teams />} />
-          <Route path="kontak" element={<Kontaks/>} />
+          <Route path="contact" element={<Contacts/>} />
           </Routes>
         </BrowserRouter>
       </div>

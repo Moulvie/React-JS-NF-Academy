@@ -1,4 +1,4 @@
-export default function Kontak() {
+export default function Contact() {
     return (
       <>
         <section id="contact" className="py-5 bg-light">
